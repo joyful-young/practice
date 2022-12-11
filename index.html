@@ -5,14 +5,45 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
-</head>
+	<style>
+		body {
+			text-align: center;
+		}
+		h1 {
+			border-radius: 100px;
+			background-color: lightBlue;
+		}
+		h2 {
+			color: white;
+		}
+		em {
+			color: blue;
+		}
+		.container {
+			border: solid 2px lightBlue;
+			display: flex;
+			justify-content: center;
+		}
+		.item {
+			border: solid 2px gray;
+			margin: 10px;
+			flex-basis: 20%
+		}
+		.container2 {
+			background-color: lightBlue;
+		}
+	</style>
 <body>
-  <p>Hello, World!</p>
-	<strong>practice</strong>
-	<p>Race Results</p>
-	<ol>
-		<li>Tortoise</li>
-		<li>Hare</li>
-	</ol>
+  <h1>Hello, World!</h1>
+	<div class="container">
+		<div class="item">Home</div>
+		<div class="item">About</div>
+		<div class="item">Contact</div>
+		<div class="item">4</div>
+	</div>
+	<div class="container2">
+		<h2>Delightful Flowers by Anna</h2>
+		<em>on sale now</em>
+	</div>
 </body>
 </html>
